@@ -8,4 +8,4 @@ This is an open-source advanced mathematics library
 2. Do the appropriate changes according to the Playbook
 3. Run the black configuration set on the pyproject.toml
 4. PR and wait for the review and comment
-5. If any fixes are required fix them, go back to step 2. Otherwise, move on
+5. If any fixes are required fix them, go back to step 2. Otherwise, move onto the next contrib quest
