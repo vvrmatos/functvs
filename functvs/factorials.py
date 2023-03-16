@@ -1,9 +1,13 @@
 from math import e
 from math import factorial
 
+# FIXME: Add a better description for the function docs for a better help() output
+
 
 def subfactorial(n):
-    """Denoted by the !!n notation calculating a number derangement"""
+    """
+    | Denoted by the !!n notation. Calculation of a number derangement
+    """
     if n == 0:
         return 1
     if n == 1:
@@ -12,7 +16,9 @@ def subfactorial(n):
 
 
 def double_factorial(n):
-    """Denoted by the n!! notation"""
+    """
+    | Denoted by the n!! notation
+    """
     if n < 0:
         return None
     result = 1
@@ -22,5 +28,7 @@ def double_factorial(n):
 
 
 def b_coefficients(row):
-    """The numbers in the centre of Pascal's Triangle. Return number in thr row"""
+    """
+    | The numbers in the centre of Pascal's Triangle. Return number in thr row
+    """
     return factorial(2 * row) // factorial(row) ** 2
