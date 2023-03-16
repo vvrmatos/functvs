@@ -4,9 +4,9 @@
 
 
 1. Implement the major factorial formulae functions
-   * [x] Subfactorial 
+   * [x] Subfactorial
    * [x] Double Factorial
-   * [x] type B Coefficient (Pascal's Triangle Stem)
+   * [x] Type B Coefficient (Pascal's Triangle Stem)
    * [ ] Triple Factorial
 
 
