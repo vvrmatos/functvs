@@ -11,7 +11,9 @@ class Subfactorial:
         elif n == 1:
             return 0
         else:
-            return (n - 1) * (Subfactorial.recursive(n - 1) + Subfactorial.recursive(n - 2))
+            return (n - 1) * (
+                Subfactorial.recursive(n - 1) + Subfactorial.recursive(n - 2)
+            )
 
     @staticmethod
     def euler(n: int) -> int:

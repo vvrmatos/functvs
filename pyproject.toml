@@ -17,6 +17,14 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 
+[tool.black]
+line-length = 79
+target-version = ['py39', 'py310', 'py311']
+
+[tool.isort]
+profile = "black"
+
+
 [project.urls]
 "Homepage" = "https://github.com/shimon-d/functvs"
 "Bug Tracker" = "https://github.com/shimon-d/functvs/issues"

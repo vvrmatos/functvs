@@ -4,10 +4,14 @@ from typing import Union
 
 
 class Pythagoras:
-    """ The sum of the legs squared is the Hypotenuse squared """
+    """The sum of the legs squared is the Hypotenuse squared"""
 
     @staticmethod
-    def right_angled(a: Union[int, float] = None, b: Union[int, float] = None, c: Union[int, float] = None):
+    def leg_hypotenuse(
+        a: Union[int, float] = None,
+        b: Union[int, float] = None,
+        c: Union[int, float] = None,
+    ):
         if a and b and not c:
             a = pow(a, 2)
             b = pow(b, 2)
@@ -29,9 +33,18 @@ class Pythagoras:
             return sqrt(a + b)
 
     @staticmethod
-    def perimeter(a: Union[int, float] = None, b: Union[int, float] = None, c: Union[int, float] = None):
+    def perimeter(
+        a: Union[int, float] = None,
+        b: Union[int, float] = None,
+        c: Union[int, float] = None,
+    ):
         return a + b + c
 
 
 class Euclid:
-    pass
+    """An isosceles triangle is defined as a triangle with at least two equal sides
+    from Greek Isoskeles "with equal legs" """
+
+    @staticmethod
+    def isosceles_area(base, height):
+        return (base * height) / 2
