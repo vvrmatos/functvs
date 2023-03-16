@@ -2,6 +2,11 @@
 
 ## Taking into consideration the best Big O notation, time complexity, algorithms
 
+## Goals for v.0.0.2 
+* Implement 50 Factorial Functions
+* Implement 10 Triangle Functions
+* Implement 20 Pascal Triangle Arithmetics, properties
+* Implement 100 Sequence Function
 
 1. Implement the major factorial formulae functions
    * [x] Subfactorial
