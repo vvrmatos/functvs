@@ -4,5 +4,5 @@
 2. Implement the major triangle formulae functions
 3. Implement Pascal Triangle Arithmetic and properties
    * The addition of the horizontal bands: According to Pascal's "Traite dv triangle arithmetiqve"\
-   <img src="src/pascal_triangle.jpg" width=200>
+   <img src="src/pascal_triangle.jpg" width=200><br />
    * Type B Catalan numbers
