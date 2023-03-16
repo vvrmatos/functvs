@@ -6,7 +6,7 @@ from math import factorial
 
 def subfactorial(n):
     """
-    | Denoted by the !!n notation. Calculation of a number derangement
+    | Denoted by the !!n notation. Calculation of a number derangement.
     """
     if n == 0:
         return 1
@@ -29,6 +29,6 @@ def double_factorial(n):
 
 def b_coefficients(row):
     """
-    | The numbers in the centre of Pascal's Triangle. Return number in thr row
+    | The numbers in the centre of Pascal's Triangle. Return number in the row.
     """
     return factorial(2 * row) // factorial(row) ** 2
