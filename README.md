@@ -1,6 +1,7 @@
 # Functvs
 This is an open-source advanced mathematics library
 
+**Source Code**: <a href="https://github.com/shimon-d/functvs" target="_blank">https://github.com/shimon-d/functvs</a>
 
 ## How to contribute
 
@@ -10,3 +11,22 @@ This is an open-source advanced mathematics library
 4. Run the black configuration set on the pyproject.toml
 5. PR and wait for the review and comment
 6. If any fixes are required fix them, go back to step 2. Otherwise, move onto the next contrib quest
+
+## Installation
+```shell
+$ pip install Functvs
+---> 100%
+```
+
+## Dependencies
+
+
+## Code example
+```python
+from functvs import Subfactorial
+
+print(Subfactorial.euler(5))
+
+
+>>> 44
+``` 
