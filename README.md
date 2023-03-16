@@ -2,7 +2,7 @@
 This is an open-source advanced mathematics library
 
 
-# How to contribute
+## How to contribute
 
 1. Fork the dir 
 2. Create a branch in the like fashion: pl-2023-user.name-playbook.number
