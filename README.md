@@ -23,9 +23,9 @@ $ pip install Functvs
 
 ## Code example
 ```python
-from functvs import Subfactorial
+from functvs import subfactorial
 
-print(Subfactorial.euler(5))
+print(subfactorial(5))
 
 
 >>> 44
