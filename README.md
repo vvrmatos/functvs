@@ -11,6 +11,7 @@ This is an open-source advanced mathematics library
 4. Run the black configuration set on the pyproject.toml
 5. PR and wait for the review and comment
 6. If any fixes are required fix them, go back to step 2. Otherwise, move onto the next contrib quest
+7. Read the [Playbook](#playbook) for new ventures
 
 ## Installation
 ```shell
@@ -30,3 +31,12 @@ print(subfactorial(5))
 
 >>> 44
 ``` 
+
+## Playbook
+The Playbook is a set of rules for purpose accomplishments.
+Follow it methodically to the path of task mastery.
+Qb abg jnfgr lbhe gvzr ba gur jung abgf.
+Sbphf fbyryl ba fbyivat gur vffhrf.
+Guvf vf n irel tengvslvat yvo.
+Erzrzore CRC20.
+Bien à vous.

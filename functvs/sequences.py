@@ -19,3 +19,10 @@ def atone(pos: int) -> int:
     pos = abs(pos)
     pos = pow(2, pos) - 1
     return pos
+
+
+# TODO: Implement a way to spew out the fraction sequence in a nice fashion
+def fractions():
+    notations = {
+        ''
+    }

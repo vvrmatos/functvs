@@ -13,6 +13,10 @@
    * [x] Double Factorial
    * [x] Type B Coefficient (Pascal's Triangle Stem)
    * [ ] Triple Factorial
+   * [ ] Gamma Function
+   * [ ] Beta Function
+   * [ ] Alpha Function
+   * [ ] Least Square Function
 
 
 2. Implement the major triangle formulae functions
@@ -27,6 +31,6 @@
 
 4. Implement (non-factorial) sequence functions\
    resources: https://oeis.org
-   * [x] Atone sequence (Gauss Binomial Coefficient)
+   * [x] Atone sequence (Gaussian Binomial Coefficient)
    * [ ] Odds
    * [ ] Evens
