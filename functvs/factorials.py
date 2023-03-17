@@ -6,7 +6,7 @@ from math import factorial
 
 def subfactorial(n):
     """
-    | Denoted by the !!n notation. Calculation of a number derangement.
+    | Denoted by the !n notation. Calculation of a number derangement.
     """
     if n == 0:
         return 1
