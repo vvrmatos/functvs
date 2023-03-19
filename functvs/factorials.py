@@ -1,6 +1,7 @@
 from math import e
 from math import factorial
-from typing import Union
+from math import pow
+from fractions import Fraction
 
 
 # FIXME: Add a better description for the function docs for a better help() output
@@ -37,7 +38,7 @@ def b_coefficients(row):
     return factorial(2 * row) // factorial(row) ** 2
 
 
-def gamma(n: int) -> int:
+def gamma(n):
     """
     | Denoted by the Γ symbol, the Gamma function is a piece of work done in collaboration
     | over the years by many mathematicians, Leonhard Euler most notably in 1730.
@@ -45,38 +46,34 @@ def gamma(n: int) -> int:
     | That can be represented as: ∫ₐᵇ u' . v = u . v | ₐᵇ - ∫ₐᵇ u . v'
     | The proposed integral being: ∫₀∞ xⁿ⁻¹ . e⁻ˣ . dx
     """
-    if n > 0:
-        return factorial(n - 1)
-    return -1
+    n = __import__("math").gamma(n)
+    return n
 
 
-def beta():
-    pass
+def beta(m, n):
+    res = (gamma(m) * gamma(n)) / gamma(m + n)
+    return Fraction(res).limit_denominator(1_000_000_000_000_000)
 
 
-def alpha():
-    pass
-
-
-def least_squares(n: Union[float, int]):
+def alpha(n):
     """
-    | Denoted by n!, where 0 <= n <= 1, n! == Γ(n + 1)
+    | The alpha function, denoted by α(n), is a special function in mathematics that is closely related to the gamma
+    | function and the beta function. It is defined as:
+    | α(n) = [(π/2)^(n/2)] * R^n / Γ(n/2 + 1)
+    | where R is a constant and Γ(x) is the gamma function.
+    | The values presented here, are not as accurate for numbers under 5-6
+
     """
 
-    if 0 <= n <= 1:
-        # The Least Square rule for 0 and 1
-        if 0 == n == 1:
-            return 1
+    # Rough approximation
+    res = (
+        1
+        - (1 / (12 * n))
+        + (1 / (288 * pow(n, 2)))
+        - (139 / (51840 * pow(n, 3)))
+        + (571 / (2488320 * pow(n, 4)))
+        - (163879 / (209018880 * pow(n, 5)))
+        + (5246819 / (75246796800 * pow(n, 6)))
+    )
 
-        # Least Square Factorial Function
-        exp = (
-            1
-            - (0.574 * pow(n, 1))
-            + (0.951 * pow(n, 2))
-            - (0.699 * pow(n, 3))
-            + (0.424 * pow(n, 4))
-            - (0.101 * pow(n, 5))
-        )
-
-        return exp
-    return -1
+    return res

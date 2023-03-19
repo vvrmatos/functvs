@@ -2,7 +2,12 @@ from .factorials import subfactorial
 from .factorials import double_factorial
 from .factorials import b_coefficients
 from .factorials import gamma
-from .factorials import least_squares
+from .factorials import beta
+from .factorials import alpha
 from .sequences import atone
 from .pascal import b_catalan
+from .pascal import pascal
+from .pascal import triangular_numbers
+from .pascal import *
+from .common import *
 from .pi import Pi

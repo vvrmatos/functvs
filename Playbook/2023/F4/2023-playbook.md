@@ -13,10 +13,9 @@
    * [x] Double Factorial
    * [x] Type B Coefficient (Pascal's Triangle Stem)
    * [ ] Triple Factorial
-   * [ ] Gamma Function
+   * [x] Gamma Function (Python built-in method)
    * [ ] Beta Function
    * [ ] Alpha Function
-   * [ ] Least Square Function
 
 
 2. Implement the major triangle formulae functions

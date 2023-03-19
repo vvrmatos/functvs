@@ -1,6 +1,7 @@
 # TODO: WHENEVER CREATING A SEQUENCE FUNCTION PLEASE TAKE TIME COMPLEXITY INTO CONSIDERATION, LOWEST POSSIBLE == BETTER
 # TODO: RESOURCE FOR SEQUENCES, MAY VARY, BUT A 'GOTO' PAGE IS: https://oeis.org
 
+
 def atone(pos: int) -> int:
     """
     | Denoted by the expression (2ⁿ) - 1, n > 0
@@ -23,6 +24,4 @@ def atone(pos: int) -> int:
 
 # TODO: Implement a way to spew out the fraction sequence in a nice fashion
 def fractions():
-    notations = {
-        ''
-    }
+    notations = {""}
