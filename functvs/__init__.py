@@ -5,6 +5,7 @@ from .factorials import gamma
 from .factorials import beta
 from .factorials import alpha
 from .sequences import atone
+from .sequences import perfect
 from .pascal import b_catalan
 from .pascal import pascal
 from .pascal import triangular_numbers

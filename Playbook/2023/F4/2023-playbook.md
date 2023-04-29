@@ -9,14 +9,13 @@
 * Implement 100 Sequence Function
 
 1. Implement the major factorial formulae functions
-   * [x] Subfactorial
+   * [x] Sub-factorial
    * [x] Double Factorial
    * [x] Type B Coefficient (Pascal's Triangle Stem)
    * [ ] Triple Factorial
    * [x] Gamma Function (Python built-in method)
    * [ ] Beta Function
    * [ ] Alpha Function
-
 
 2. Implement the major triangle formulae functions
    * [ ] Pythagoras
