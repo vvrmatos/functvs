@@ -1,7 +1,7 @@
 # Functvs
 This is an open-source advanced mathematics library
 
-**Source Code**: <a href="https://github.com/vvrmatos/functvs" target="_blank">https://github.com/shimon-d/functvs</a>
+**Source Code**: <a href="https://github.com/vvrmatos/functvs" target="_blank">https://github.com/vvrmatos/functvs</a>
 
 ## How to contribute
 
